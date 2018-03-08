@@ -1,8 +1,8 @@
 {
   "name": "skipper-openstack",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "dependencies": {
-    "pkgcloud": "git+https://github.com/IBM-Bluemix/pkgcloud.git#fix-openstack-auth",
+    "pkgcloud": "^1.5.0",
     "stream": "0.0.2",
     "underscore": "1.8.3"
   },
@@ -23,6 +23,10 @@
     "express"
   ],
   "author": [
+    {
+      "name": "Constantine Gritsenko",
+      "email": "gritsenko.konstantin@gmail.com"
+    },
     {
       "name": "Jeff Sloyer",
       "email": "jbsloyer@us.ibm.com"
