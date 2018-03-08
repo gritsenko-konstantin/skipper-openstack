@@ -1,6 +1,6 @@
 {
   "name": "skipper-openstack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "pkgcloud": "^1.5.0",
     "stream": "0.0.2",

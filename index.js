@@ -48,7 +48,7 @@ module.exports = function SwiftStore(globalOpts) {
                 console.log("Uploading file with name", __newFile.filename);
                 __newFile.pipe(client.upload({
                     container: options.container,
-                    remote: __newFile.filename
+                    remote: __newFile.fd
                 }, function(err, value) {
                   console.log(err);
                   console.log(value);
